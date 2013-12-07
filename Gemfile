@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.11'
+gem 'rails', '3.2.15'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -19,19 +19,21 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem "jquery-rails"
 gem "thin"
 gem "rabl"
 gem "oj"
 gem "gon"
 gem "js-routes"
+gem 'spinjs-rails'
 
 group :development, :test do
-	gem 'rails-dev-tweaks'
+  gem 'rails-dev-tweaks'
 end
 
 group :assets do
   gem "eco"
   gem "compass-rails"
-  gem "zurb-foundation", '~> 4.0.0'
-	gem "foundation-icons-sass-rails"
+  gem "zurb-foundation", '~> 4.3.2'
+  gem "font-awesome-rails"
 end
