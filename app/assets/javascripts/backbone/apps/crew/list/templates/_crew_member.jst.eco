@@ -49,7 +49,7 @@
 </div>
 <div class="crew-delete">
   <button class="button secondary tiny radius">
-    <i class="general-enclosed foundicon-remove"></i>
+    <i class="fa fa-minus-circle"></i>
     Delete
   </button>
 </div>
