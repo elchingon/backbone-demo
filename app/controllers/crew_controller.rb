@@ -3,7 +3,7 @@ class CrewController < ApplicationController
 
   def index
     sleep 2
-    @crew = Crew.all
+    @crew = Crew.limit(50)
   end
 
   def show
