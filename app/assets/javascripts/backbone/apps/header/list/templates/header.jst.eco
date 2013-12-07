@@ -18,14 +18,14 @@
           <li class="divider"></li>
               <li>
             <a href="#">
-              <i class="general foundicon-graph"></i>
+              <i class="fa fa-tachometer"></i>
               Dashboard
             </a>
           </li>
           <li class="divider"></li>
           <li class="active">
             <a href="#">
-              <i class="social foundicon-torso"></i>
+              <i class="fa fa-users"></i>
               Crew
             </a>
           </li>

@@ -4,11 +4,11 @@
     template: "crew/edit/edit_layout"
 
     regions:
-      titleRegion:  "#title-region"
+      bannerRegion:  "#banner-region"
       formRegion:   "#form-region"
 
-  class Edit.Title extends App.Views.ItemView
-    template: "crew/edit/edit_title"
+  class Edit.Banner extends App.Views.ItemView
+    template: "crew/edit/edit_banner"
 
     modelEvents:
       "updated" : "render"

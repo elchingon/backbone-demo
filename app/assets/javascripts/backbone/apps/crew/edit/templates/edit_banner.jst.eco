@@ -1,17 +1,15 @@
-<div id="page-title">
+<div id="banner">
   <div class="row">
     <div class="large-12 columns">
-      <h1>Crew</h1>
-      <h4>The Crew Members of Planet Express</h4>
+      <h1><%= @name %></h1>
+      <h4>Some awesome quote here</h4>
       <div id="page-icons">
-        <i class="accessibility foundicon-person"></i>
-        <i class="accessibility foundicon-person"></i>
-        <i class="accessibility foundicon-person"></i>
+        <i class="fa fa-users"></i>
       </div>
     </div>
   </div>
 </div>
-<div class="breadcrumbs">
+<div id="breadcrumbs">
   <div class="row">
     <div class="columns large-12">
       <ul class="right">

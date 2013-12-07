@@ -4,13 +4,13 @@
     template: "crew/list/list_layout"
 
     regions:
-      titleRegion:   "#title-region"
+      bannerRegion:   "#banner-region"
       panelRegion:  "#panel-region"
       newRegion:    "#new-region"
       crewRegion:    "#crew-region"
 
-  class List.Title extends App.Views.ItemView
-    template: "crew/list/_title"
+  class List.Banner extends App.Views.ItemView
+    template: "crew/list/_banner"
 
   class List.Panel extends App.Views.ItemView
     template: "crew/list/_panel"

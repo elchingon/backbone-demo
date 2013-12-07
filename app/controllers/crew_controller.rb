@@ -2,12 +2,12 @@ class CrewController < ApplicationController
   respond_to :json
 
   def index
-    # sleep 5
+    sleep 2
     @crew = Crew.all
   end
 
   def show
-    # sleep 5
+    sleep 2
     @member = Crew.find params[:id]
   end
 
@@ -32,7 +32,6 @@ class CrewController < ApplicationController
   end
 
   def destroy
-    sleep 2
     member = Crew.find params[:id]
     member.destroy()
     render json: {}

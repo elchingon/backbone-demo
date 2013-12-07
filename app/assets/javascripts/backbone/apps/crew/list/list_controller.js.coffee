@@ -12,15 +12,15 @@
         # @listenTo @layout, "close", @close
 
         @listenTo @layout, "show", =>
-          @titleRegion()
+          @bannerRegion()
           @panelRegion()
           @crewRegion crew
 
         @show @layout
 
-    titleRegion: ->
-      titleView = @getTitleView()
-      @layout.titleRegion.show titleView
+    bannerRegion: ->
+      bannerView = @getTitleView()
+      @layout.bannerRegion.show bannerView
 
     panelRegion: ->
       panelView = @getPanelView()
@@ -53,7 +53,7 @@
       new List.Panel
 
     getTitleView: ->
-      new List.Title
+      new List.Banner
 
     getLayoutView: (crew) ->
       new List.Layout

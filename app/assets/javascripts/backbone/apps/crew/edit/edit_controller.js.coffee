@@ -13,14 +13,14 @@
         @layout = @getLayoutView crew
 
         @listenTo @layout, "show", =>
-          @titleRegion crew
+          @bannerRegion crew
           @formRegion crew
 
         @show @layout
 
-    titleRegion: (crew) ->
-      titleView = @getTitleView crew
-      @layout.titleRegion.show titleView
+    bannerRegion: (crew) ->
+      bannerView = @getTitleView crew
+      @layout.bannerRegion.show bannerView
 
     formRegion: (crew) ->
       editView = @getEditView crew
@@ -33,7 +33,7 @@
       @layout.formRegion.show formView
 
     getTitleView: (crew) ->
-      new Edit.Title
+      new Edit.Banner
         model: crew
 
     getLayoutView: (crew) ->
