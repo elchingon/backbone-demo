@@ -1,7 +1,7 @@
 Episode07::Application.routes.draw do
-	resources :crew
-	
-	match "static" => "application#static"
+  resources :crew
+
+  match "static" => "application#static"
   root :to => 'application#index'
 
   # The priority is based upon order of creation:
