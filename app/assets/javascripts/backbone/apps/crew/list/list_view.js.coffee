@@ -1,4 +1,4 @@
-@PlanetExpress.module "CrewApp.List", (List, App, Backbone, Marionette, $, _) ->
+@PE.module "CrewApp.List", (List, App, Backbone, Marionette, $, _) ->
 
   class List.Layout extends App.Views.Layout
     template: "crew/list/list_layout"

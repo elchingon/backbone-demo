@@ -1,4 +1,4 @@
-@PlanetExpress.module "Components.Form", (Form, App, Backbone, Marionette, $, _) ->
+@PE.module "Components.Form", (Form, App, Backbone, Marionette, $, _) ->
 
   class Form.Controller extends App.Controllers.Base
 

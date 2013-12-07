@@ -1,4 +1,4 @@
-@PlanetExpress.module "Controllers", (Controllers, App, Backbone, Marionette, $, _) ->
+@PE.module "Controllers", (Controllers, App, Backbone, Marionette, $, _) ->
 
   class Controllers.Base extends Marionette.Controller
 

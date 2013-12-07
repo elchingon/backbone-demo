@@ -1,4 +1,4 @@
-@PlanetExpress.module "CrewApp.Edit", (Edit, App, Backbone, Marionette, $, _) ->
+@PE.module "CrewApp.Edit", (Edit, App, Backbone, Marionette, $, _) ->
 
   class Edit.Layout extends App.Views.Layout
     template: "crew/edit/edit_layout"

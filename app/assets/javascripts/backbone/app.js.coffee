@@ -1,4 +1,4 @@
-@PlanetExpress = do (Backbone, Marionette) ->
+@PE = do (Backbone, Marionette) ->
 
   App = new Marionette.Application
 

@@ -1,4 +1,4 @@
-@PlanetExpress.module "Entities", (Entities, App, Backbone, Marionette, $, _) ->
+@PE.module "Entities", (Entities, App, Backbone, Marionette, $, _) ->
 
   class Entities.Crew extends App.Entities.Model
     urlRoot: -> Routes.crew_index_path()

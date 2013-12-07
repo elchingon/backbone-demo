@@ -1,4 +1,4 @@
-@PlanetExpress.module "Entities", (Entities, App, Backbone, Marionette, $, _) ->
+@PE.module "Entities", (Entities, App, Backbone, Marionette, $, _) ->
 
   class Entities.Button extends Entities.Model
     defaults:

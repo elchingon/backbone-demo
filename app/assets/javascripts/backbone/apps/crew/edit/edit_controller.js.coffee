@@ -1,4 +1,4 @@
-@PlanetExpress.module "CrewApp.Edit", (Edit, App, Backbone, Marionette, $, _) ->
+@PE.module "CrewApp.Edit", (Edit, App, Backbone, Marionette, $, _) ->
 
   class Edit.Controller extends App.Controllers.Base
 

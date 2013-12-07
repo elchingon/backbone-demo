@@ -1,4 +1,4 @@
-Episode07::Application.routes.draw do
+PlanetExpress::Application.routes.draw do
   resources :crew
 
   match "static" => "application#static"

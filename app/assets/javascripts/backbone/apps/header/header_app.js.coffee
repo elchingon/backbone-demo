@@ -1,4 +1,4 @@
-@PlanetExpress.module "HeaderApp", (HeaderApp, App, Backbone, Marionette, $, _) ->
+@PE.module "HeaderApp", (HeaderApp, App, Backbone, Marionette, $, _) ->
   @startWithParent = false
 
   API =

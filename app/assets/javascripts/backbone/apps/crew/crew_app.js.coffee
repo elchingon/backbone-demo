@@ -1,4 +1,4 @@
-@PlanetExpress.module "CrewApp", (CrewApp, App, Backbone, Marionette, $, _) ->
+@PE.module "CrewApp", (CrewApp, App, Backbone, Marionette, $, _) ->
 
   class CrewApp.Router extends Marionette.AppRouter
     appRoutes:
