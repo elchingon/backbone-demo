@@ -3,7 +3,7 @@ class CrewController < ApplicationController
 
   def index
     sleep 2
-    @crew = Crew.limit(50)
+    @crew = Crew.limit 50
   end
 
   def show
@@ -15,7 +15,7 @@ class CrewController < ApplicationController
     sleep 2
     @member = Crew.find params[:id]
     if @member.update_attributes params
-      render "crew/show"
+      render :show
     else
       respond_with @member
     end
@@ -25,7 +25,7 @@ class CrewController < ApplicationController
     sleep 2
     @member = Crew.new
     if @member.update_attributes params
-      render "crew/show"
+      render :show
     else
       respond_with @member
     end
