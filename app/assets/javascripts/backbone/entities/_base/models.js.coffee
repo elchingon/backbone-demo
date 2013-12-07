@@ -25,12 +25,12 @@
 
     saveSuccess: (isNew, collection) =>
       if isNew ## model is being created
-        collection.add @ if collection
-        collection.trigger "model:created", @ if collection
+        collection?.add @
+        collection?.trigger "model:created", @
         @trigger "created", @
       else ## model is being updated
         collection ?= @collection ## if model has collection property defined, use that if no collection option exists
-        collection.trigger "model:updated", @ if collection
+        collection?.trigger "model:updated", @
         @trigger "updated", @
 
     saveError: (model, xhr, options) =>
